@@ -73,6 +73,8 @@ wrapWS = (url) ->
         }
         ws.onmessage(event)
 
+  socket.on 'connectFailed', (error) -> ws.onclose?(error)
+
   socket.connect url
   return ws
 
