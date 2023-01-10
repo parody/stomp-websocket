@@ -16,7 +16,7 @@
     "connect": "latest"
   },
   "optionalDependencies": {
-    "websocket": "latest"
+    "websocket": "1.0.32"
   },
   "directories": {
     "doc": "doc",
